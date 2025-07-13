@@ -1,12 +1,30 @@
-import "./App.css";
+import Header from './components/Header';
+import ProjectSection from './components/ProjectSection';
+// we’ll create these soon:
+import Intro from './components/Intro';
+import Skills from './components/Skills';
+import Education from './components/Education';
+import Achievements from './components/Achievements';
+import Contact from './components/Contact';
+import Experience from './components/Experience'
 
 function App() {
   return (
-    <main className="flex justify-center gap-4 flex-col min-h-screen">
-      <h1 className="text-3xl text-center font-bold underline">React & Tailwind CSS Starter Pack</h1>
-      <p className="text-center text-xl">This is a starter pack for React & Tailwind CSS projects.</p>
-      <img src="https://bit.ly/3wsmzTy" alt="meme" className="mx-auto" />
-    </main>
+    <>
+      <Header />
+      <main className="pt-20 px-4">
+        <main className="pt-20 px-4">
+  <section id="intro"><Intro /></section>
+  <section id="experience"><Experience /></section> {/* Add this line */}
+  <section id="skills"><Skills /></section>
+  <section id="education"><Education /></section>
+  <section id="projects"><ProjectSection /></section>
+  <section id="achievements"><Achievements /></section>
+  <section id="contact"><Contact /></section>
+</main>
+
+      </main>
+    </>
   );
 }
 
