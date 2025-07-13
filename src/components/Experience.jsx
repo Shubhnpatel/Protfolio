@@ -6,7 +6,7 @@ const Experience = () => {
     {
       title: "Data Analyst Intern",
       company: "CybraneX",
-      duration: "June 2024 – Feb 2024",
+      duration: "June 2024 – Feb 2025",
       description:
         "Worked on Exploratory Data Analysis (EDA) and Feature Engineering and made some exclusive Dashboards using Power BI",
     },
